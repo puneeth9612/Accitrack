@@ -1,0 +1,29 @@
+# Ignore PDF and Word documents 
+*.pdf
+*.doc
+*.docx
+*.pptx
+
+#Ignore images
+*.jpeg
+*.jpg
+*.png
+
+#Ignore archives & binaries
+*.zip
+*.exe
+*.lnk
+*.mp3
+
+#Ignore ML model weights
+*.pt
+
+#Ignore environment files
+*.env
+
+#Ignore virtual environments 
+mediapipe_env/
+mediapipe_env64/
+venv/
+env/
+__pycache__/
